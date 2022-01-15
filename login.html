@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="zh-cmn-Hans">
+<!DOCTYPE html>
+<html lang="zh-cn">
 
 <head>
   <meta charset="utf-8">
@@ -10,30 +10,33 @@
 
   <!-- MDUI CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" />
-  <title>Hello, world!</title>
+  <title>Page1</title>
+  <style>
+    body {
+      font-weight: 800 !important;
+    }
+    .thin {
+      margin-left: 5px;
+      margin-right: 5px;
+      /* margin-left: 0px; */
+    }
+  </style>
 </head>
 
-<body class="mdui-theme-layout-dark mdui-theme-primary-orange">
-  <div class="mdui-toolbar mdui-color-deep-orange-200">
+<body class="mdui-theme-primary-teal mdui-theme-accent-pink mdui-theme mdui-theme-layout-dark mdui-color-orange-50">
+
+
+  <div class="mdui-toolbar mdui-color-theme">
+      <span class="thin" style="font-size: 50px; font-weight: 200;">L</span>
+      <span class="thin" style="font-size: 50px; font-weight: 800;">E</span>
+      <span class="thin" style="font-size: 50px; font-weight: 800;">A</span>
+      <span class="thin" style="font-size: 50px; font-weight: 800;">F</span>
+    <div class="mdui-toolbar-spacer"></div>
     <a href="javascript:;" class="mdui-btn mdui-btn-icon">
-      <i class="mdui-icon material-icons">menu</i>
-    </a>
-    <div class="mdui-toolbar-spacer"></div>
-    <div class="mdui-ripple">
-      <span class="mdui-typo-title">Title</span>
-    </div>
-    <div class="mdui-toolbar-spacer"></div>
-    <a href="https://www.baidu.com" class="mdui-btn mdui-btn-icon">
       <i class="mdui-icon material-icons">search</i>
     </a>
-
-    <a href="javascript:;" class="mdui-btn mdui-btn-icon">
-      <i class="mdui-icon material-icons">refresh</i>
-    </a>
-    <a href="info.html" class="mdui-btn mdui-btn-icon">
-      <i class="mdui-icon material-icons">more_vert</i>
-    </a>
   </div>
+  
 
   <!-- MDUI JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
